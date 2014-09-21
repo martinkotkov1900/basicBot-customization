@@ -42,6 +42,10 @@
                 else {
                     API.sendChat("/me Bacon!");
                 }
+            }
+        };
+        
+        bot.commands.tacoCommand = {
             command: 'taco',
             rank: 'bouncer',
             type: 'exact',
